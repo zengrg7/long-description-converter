@@ -5,6 +5,7 @@ import { SiConvertio } from "react-icons/si";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Notification from "@/components/Notification";
+import ToolOverview from "@/components/ToolOverview";
 
 // import { FaRegCopy } from "react-icons/fa6";
 // import { MdOutlineContentPaste } from "react-icons/md";
@@ -111,7 +112,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex justify-center items-center w-full min-h-screen font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col justify-center items-center w-full min-h-screen font-[family-name:var(--font-geist-sans)] pt-20">
       <main className="flex flex-col gap-8 justify-center items-center w-4/5">
         <h1 className="text-4xl font-bold text-center ">
           Long Description Converter
@@ -154,6 +155,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <ToolOverview />
       <Notification />
     </div>
   );
