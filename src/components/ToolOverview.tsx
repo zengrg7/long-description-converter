@@ -97,11 +97,14 @@ const ToolOverview = () => {
           In Short, Just click the &ldquo;Convert&rdquo; button and paste in the
           work app.
         </strong>
-        <br />- Note: This tool doesn&rsquo;t check for any grammatical errors
-        so use this tool in your discretion.
+        <br />
+        <p className="text-red-600">
+          - Note: This tool doesn&rsquo;t check for any grammatical errors so
+          use this tool in your discretion.
+        </p>
       </p>
 
-      <div className="bg-yellow-100 p-6 rounded-lg shadow-md max-w-3xl mx-auto my-10">
+      <div className="bg-red-100 p-6 rounded-lg shadow-md max-w-3xl mx-auto my-10">
         <h3 className="text-xl font-semibold text-yellow-800 mb-4">
           Disclaimer
         </h3>
